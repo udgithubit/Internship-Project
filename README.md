@@ -22,7 +22,7 @@ This project addresses the critical need for toxic content detection in Hindi so
 ## Setup & Installation
 1. Clone the repository:
    ```
-   git clone < (https://github.com/udgithubit/Internship-Project/new/main)
+   git clone < https://github.com/udgithubit/Internship-Project/new/main
    cd udgithubit
    ```
 2. Install requirements:
