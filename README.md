@@ -1,4 +1,3 @@
-
 # Toxic Content Detection in Hindi Social Media
 Hybrid Transformer-Based Neural Architectures for Responsible NLP
 
@@ -10,7 +9,7 @@ This project addresses the critical need for toxic content detection in Hindi so
 - Custom embeddings (Word2Vec, GloVe, FastText) and transformer-based features
 - Hybrid deep learning model architecture (BERT + Bi-LSTM)
 - Fairness evaluation using IBM AI Fairness 360 toolkit
-- Published results in ICMLDE 2025: “Hybrid Transformer-Based Neural Architectures for Toxic Hindi Social Media”
+- Accepted & presented at ICMLDE 2025: "Hybrid Transformer-Based Neural Architectures for Toxic Hindi Social Media"
 
 ## Repository Contents
 - `data/`: Contains annotated Hindi social media dataset samples
@@ -22,8 +21,8 @@ This project addresses the critical need for toxic content detection in Hindi so
 ## Setup & Installation
 1. Clone the repository:
    ```
-   git clone < https://github.com/udgithubit/Internship-Project/new/main
-   cd udgithubit
+   git clone https://github.com/udgithubit/Internship-Project.git
+   cd Internship-Project
    ```
 2. Install requirements:
    ```
@@ -33,10 +32,12 @@ This project addresses the critical need for toxic content detection in Hindi so
 4. Start exploration in `notebooks/`.
 
 ## Major Outcomes
-- Achieved 94% accuracy and 0.94 F1-score using hybrid BERT-BiLSTM architecture.
+- Achieved 94.2% accuracy and 0.94 F1-score using hybrid BERT-BiLSTM architecture on the full dataset.
 - Improved fairness (Equalized Odds, Demographic Parity, Individual Fairness).
 - Model generalizes well to code-mixed and regional Hindi data.
-- Comprehensive report and publication in ICMLDE 2025.
+- Accepted & presented at ICMLDE 2025.
+
+> **Note on demo data:** The sample dataset included in `data/` is a filtered 500-row subset used for quick demonstration purposes. On this smaller, cleaner sample, plain BERT performs comparably to the hybrid model. The reported 94% accuracy and hybrid advantage were validated on the full ~60K-record dataset used in the paper, where the added ambiguity in the data is what allows the Bi-LSTM component to meaningfully improve over BERT alone.
 
 ## How to Use
 - Train the model or use provided weights for toxic content detection.
@@ -51,8 +52,8 @@ This project is open-sourced under the MIT License. See LICENSE file for details
 - Dibrugarh University Institute of Engineering and Technology (DUIET)
 - Amity University mentors and collaboration team
 - Funding: DST WISE Fellowship
-- Peer reviewers and contributors to ICMLDE 2025 publication
+- Peer reviewers and contributors to ICMLDE 2025 presentation
 
 ## Contact
-For inquiries or collaboration, please reach out via dasunmona60@gmail.com. 
-
+For inquiries or collaboration, please reach out via dasunmona60@gmail.com.
+```
